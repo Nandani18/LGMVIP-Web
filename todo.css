@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color: #7c1d00;
+    box-sizing: border-box; 
+}
+
+h2{
+    color: #f1ee22;
+    text-align: center;
+    margin: 1rem 0 3rem;
+}
+
+h1{
+    text-align: center;
+    margin: 1rem 0 3rem;
+}
+
+.title
+{
+    color: #efab23;
+    font-weight: 500;
+    font-size: 120px;
+}
+
+.inputdiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    padding: 0.5rem 1rem;
+    outline: none;
+    height: 50px;
+    border-radius: 10px;
+    width: 320px;
+    margin: 0.40rem;
+    transition: .5s;
+    font-size: 1.15rem;
+    font-weight: 700;
+    font-style: italic;
+    background-color: #a0f6d8;
+    
+}
+
+.add
+{
+    outline: none;
+    border: none;
+    width: 50px;
+    border-radius: 10px;
+    height: 50px;
+    background-color: #ee8801;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+
+.add:hover{
+    background: #f49945;
+
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: top;
+    border: #ece81d;
+}
+
+.item_input
+{
+    background: #ddf9fc;
+    outline: none;
+    border: 3px solid#f5e2fd;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    font-size: 20px;
+    width: 315px;
+}
+
+.button
+{
+    background: none;
+    outline: none;
+    border: none;
+    color: #ece81d;
+    font-size: 2rem;
+    margin: left;
+    cursor: pointer;
+}
+
+.remove{
+    background: none;
+    outline: none;
+    border: none;
+    color: #fff70f;
+    font-size: 2rem;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.removebtn
+{
+    margin-top: 35px;
+    color:#fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ea7b04;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    font-size: 15px;
+    transition: all 0.4s ease 0s;
+    height: 55px;
+    width: 150px;
+}
+.removebtn:hover
+{
+    background: #fcae05;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow:  5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0%;
+
+}
